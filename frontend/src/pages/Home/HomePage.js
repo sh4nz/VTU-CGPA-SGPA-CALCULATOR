@@ -16,7 +16,7 @@ export default function HomePage() {
   return (
     <Container>
       <Box textAlign="center" my={5}>
-        <Typography variant="h2" gutterBottom fontWeight={400}>
+        <Typography variant="h3" gutterBottom fontWeight={400}>
           CGPA/SGPA Calculator
         </Typography>
         <Typography variant="h6" color="textSecondary">
@@ -50,7 +50,7 @@ export default function HomePage() {
         <Typography variant="h5" gutterBottom>
           What are CGPA and SGPA?
         </Typography>
-        <Typography variant="body1" paragraph textAlign={"justify"}>
+        <Typography variant="body1" paragraph>
           CGPA (Cumulative Grade Point Average) and SGPA (Semester Grade Point
           Average) are used to represent a student's performance. They aggregate
           your individual course grades and credits into a single, comprehensive
